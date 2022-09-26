@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: brown;
+  padding: 20px 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1111111;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+i {
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+}
+
+#Products img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 200px;
+}
+
+#count {
+  position: absolute;
+  font-size: 12px;
+  color: brown;
+  background: #fff;
+  padding: 2px 5px;
+  border-radius: 100%;
+  font-weight: bold;
+  top: -10px;
+  right: -18px;
+}
+
+#basket-list img {
+  width: 10%;
+}
+
+.basket-box {
+  margin-top: 30px;
+  box-shadow: 0px 3px 7px #d9cdcd;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid red;
+}/*# sourceMappingURL=style.css.map */
